@@ -11,31 +11,45 @@
 
 <body>
     <div id="sidebar">
-        <div id="logo">Dashboard</div>
-        <div id="top-menu">
-            <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
-            </ul>
-        </div>
-        <div id="bottom-menu">
-            <ul>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
-            </ul>
-        </div>
+        <i class="fa-solid fa-chart-line fa-2x icon"></i>
+        <p class="sidebar-item" id="dashboard-text">Dashboard</p>
+        <i class="fa-solid fa-house icon"></i>
+        <p class="sidebar-item">Home</p>
+        <i class="fa-solid fa-address-card icon"></i>
+        <p class="sidebar-item">Profile</p>
+        <i class="fa-solid fa-message icon"></i>
+        <p class="sidebar-item">Messages</p>
+        <i class="fa-solid fa-clock icon"></i>
+        <p class="sidebar-item">History</p>
+        <i class="fa-solid fa-list-check icon"></i>
+        <p class="sidebar-item">Tasks</p>
+        <i class="fa-solid fa-user-group icon"></i>
+        <p class="sidebar-item">Communities</p>
+        <br>
+        <i class="fa-solid fa-gear icon"></i>
+        <p class="sidebar-item">Settings</p>
+        <i class="fa-solid fa-question icon"></i>
+        <p class="sidebar-item">Support</p>
+        <i class="fa-solid fa-user-shield icon"></i>
+        <p class="sidebar-item">Privacy</p>
     </div>
     <div id="header">
         <div id="top-header">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
             <div id="search"></div>
+            <div class="spacer"></div>
+            <i id="notification-icon" class="fa-solid fa-bell"></i>
+            <i id="user-icon" class="fa-regular fa-user fa-2x"></i>
+            <div id="username">Joe Mama</div>
         </div>
-        <div id="bottom-header">bottom header here</div>
+        <div id="bottom-header">
+            <div>Good Morning, Joe Mama</div>
+            <i id="user-icon" class="fa-regular fa-user fa-2x"></i>
+            <div class="spacer"></div>
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+        </div>
     </div>
     <div id="content">
         <h3>Your Projects</h3>
@@ -43,18 +57,42 @@
             <div class="project">
                 <h4>My first project!</h4>
                 <p>This is my first project. It's going to be a lot of fun to do!</p>
+                <br>
+                <div class="project-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <i class="fa-solid fa-thumbtack"></i>
+                </div>
             </div>
             <div class="project">
                 <h4>My second project</h4>
                 <p>This project isn't as fun, but at least I can use this cool admin dashboard I built to manage it</p>
+                <br>
+                <div class="project-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <i class="fa-solid fa-thumbtack"></i>
+                </div>
             </div>
             <div class="project">
                 <h4>My third project!!!!</h4>
                 <p>This project is actually awesome. I'm so stoked about this one</p>
+                <br>
+                <div class="project-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <i class="fa-solid fa-thumbtack"></i>
+                </div>
             </div>
             <div class="project">
                 <h4>Another project</h4>
                 <p>This project is also really cool. I'm really looking forward to doing this project</p>
+                <br>
+                <div class="project-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <i class="fa-solid fa-thumbtack"></i>
+                </div>
             </div>
             <div class="project">
                 <h4>This project is long</h4>
@@ -62,10 +100,22 @@
                     is big enough that I can do it. Plus it's super satisfying to see all of my information listed
                     out in the card like this.
                 </p>
+                <br>
+                <div class="project-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <i class="fa-solid fa-thumbtack"></i>
+                </div>
             </div>
             <div class="project">
                 <h4>My final project</h4>
                 <p>This is my final project for right now. It's not too long thankfully</p>
+                <br>
+                <div class="project-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <i class="fa-solid fa-thumbtack"></i>
+                </div>
             </div>
         </div>
         <h3 id="announcements-heading">Announcements</h3>
@@ -80,9 +130,21 @@
                 </p>
             </div>
             <h3 id="trending-heading">Trending</h3>
-            <div class="other" id="trending">trending here</div>
+            <div class="other" id="trending">
+                <div class="other-content"><i class="fa-solid fa-user fa-2x"></i>
+                    <p>Fake User 1</p>
+                </div>
+                <div class="other-content"><i class="fa-solid fa-user fa-2x"></i>
+                    <p>Fake User 2</p>
+                </div>
+                <div class="other-content"><i class="fa-solid fa-user fa-2x"></i>
+                    <p>Fake User 3</p>
+                </div>
+                <div class="other-content"><i class="fa-solid fa-user fa-2x"></i>
+                    <p>Fake User 4</p>
+                </div>
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
