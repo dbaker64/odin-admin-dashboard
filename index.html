@@ -1,11 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4f877002cc.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <div id="sidebar">
+        <div id="logo">Dashboard</div>
+        <div id="top-menu">
+            <ul>
+                <li>Home</li>
+                <li>Profile</li>
+                <li>Messages</li>
+                <li>History</li>
+                <li>Tasks</li>
+                <li>Communities</li>
+            </ul>
+        </div>
+        <div id="bottom-menu">
+            <ul>
+                <li>Settings</li>
+                <li>Support</li>
+                <li>Privacy</li>
+            </ul>
+        </div>
+    </div>
+    <div id="header">
+        <div id="top-header">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <div id="search"></div>
+        </div>
+        <div id="bottom-header">bottom header here</div>
+    </div>
+    <div id="content">
+        <h3>Your Projects</h3>
+        <div id="projects">
+            <div class="project">
+                <h4>My first project!</h4>
+                <p>This is my first project. It's going to be a lot of fun to do!</p>
+            </div>
+            <div class="project">
+                <h4>My second project</h4>
+                <p>This project isn't as fun, but at least I can use this cool admin dashboard I built to manage it</p>
+            </div>
+            <div class="project">
+                <h4>My third project!!!!</h4>
+                <p>This project is actually awesome. I'm so stoked about this one</p>
+            </div>
+            <div class="project">
+                <h4>Another project</h4>
+                <p>This project is also really cool. I'm really looking forward to doing this project</p>
+            </div>
+            <div class="project">
+                <h4>This project is long</h4>
+                <p>This project has a lot of text. I have a lot of things I need to do. However, my project card
+                    is big enough that I can do it. Plus it's super satisfying to see all of my information listed
+                    out in the card like this.
+                </p>
+            </div>
+            <div class="project">
+                <h4>My final project</h4>
+                <p>This is my final project for right now. It's not too long thankfully</p>
+            </div>
+        </div>
+        <h3 id="announcements-heading">Announcements</h3>
+        <div id="other-content">
+            <div class="other" id="announcements">
+                <p><strong>New Task</strong><br>We've got some stuff we need to do. Let's get this sucker done!</p>
+                <p><strong>Admin Dashboard Broke</strong><br>Help! Our awesome admin dashboard broke. Let's do our job
+                    and fix this dang thing!!!</p>
+                <p><strong>Odin Project Awesomeness</strong><br>We've gotta talk about how awesome The Odin Project is.
+                    That's like, our number one
+                    priority.
+                </p>
+            </div>
+            <h3 id="trending-heading">Trending</h3>
+            <div class="other" id="trending">trending here</div>
+        </div>
+    </div>
 </body>
+
 </html>
